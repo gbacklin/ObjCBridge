@@ -1,0 +1,359 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB74A9F6211A1FA800C5DF6A /* TrustKit.h in Headers */ = {isa = PBXBuildFile; fileRef = FB74A9F4211A1FA800C5DF6A /* TrustKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FB74A9FE211A1FC400C5DF6A /* VersionClass.h in Headers */ = {isa = PBXBuildFile; fileRef = FB74A9FC211A1FC400C5DF6A /* VersionClass.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FB74A9FF211A1FC400C5DF6A /* VersionClass.m in Sources */ = {isa = PBXBuildFile; fileRef = FB74A9FD211A1FC400C5DF6A /* VersionClass.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FB74A9F1211A1FA800C5DF6A /* TrustKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TrustKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB74A9F4211A1FA800C5DF6A /* TrustKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TrustKit.h; sourceTree = "<group>"; };
+		FB74A9F5211A1FA800C5DF6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB74A9FC211A1FC400C5DF6A /* VersionClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VersionClass.h; sourceTree = "<group>"; };
+		FB74A9FD211A1FC400C5DF6A /* VersionClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VersionClass.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB74A9EE211A1FA800C5DF6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB74A9E7211A1FA800C5DF6A = {
+			isa = PBXGroup;
+			children = (
+				FB74A9F3211A1FA800C5DF6A /* TrustKit */,
+				FB74A9F2211A1FA800C5DF6A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FB74A9F2211A1FA800C5DF6A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB74A9F1211A1FA800C5DF6A /* TrustKit.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB74A9F3211A1FA800C5DF6A /* TrustKit */ = {
+			isa = PBXGroup;
+			children = (
+				FB74A9F4211A1FA800C5DF6A /* TrustKit.h */,
+				FB74A9FC211A1FC400C5DF6A /* VersionClass.h */,
+				FB74A9FD211A1FC400C5DF6A /* VersionClass.m */,
+				FB74A9F5211A1FA800C5DF6A /* Info.plist */,
+			);
+			path = TrustKit;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		FB74A9EC211A1FA800C5DF6A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB74A9FE211A1FC400C5DF6A /* VersionClass.h in Headers */,
+				FB74A9F6211A1FA800C5DF6A /* TrustKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		FB74A9F0211A1FA800C5DF6A /* TrustKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB74A9F9211A1FA800C5DF6A /* Build configuration list for PBXNativeTarget "TrustKit" */;
+			buildPhases = (
+				FB74A9EC211A1FA800C5DF6A /* Headers */,
+				FB74A9ED211A1FA800C5DF6A /* Sources */,
+				FB74A9EE211A1FA800C5DF6A /* Frameworks */,
+				FB74A9EF211A1FA800C5DF6A /* Resources */,
+				FB74AA00211A20B800C5DF6A /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TrustKit;
+			productName = TrustKit;
+			productReference = FB74A9F1211A1FA800C5DF6A /* TrustKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB74A9E8211A1FA800C5DF6A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1240;
+				ORGANIZATIONNAME = "Gene Backlin";
+				TargetAttributes = {
+					FB74A9F0211A1FA800C5DF6A = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = FB74A9EB211A1FA800C5DF6A /* Build configuration list for PBXProject "TrustKit" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB74A9E7211A1FA800C5DF6A;
+			productRefGroup = FB74A9F2211A1FA800C5DF6A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB74A9F0211A1FA800C5DF6A /* TrustKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB74A9EF211A1FA800C5DF6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		FB74AA00211A20B800C5DF6A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#In Xcode, the framework search path build setting determines where the linker looks for frameworks at link time. Since your app target attempts to link to RealmSwift.framework (as a result of importing ParentFramework), RealmSwift.framework needs to be available on the framework search path.\n\n#It's important to note that while nested frameworks work in the iOS simulator and even locally on your device, iTunes Connect rejects app bundles that contain nested frameworks. The expected pattern is that all frameworks are embedded directly within the app.\n\necho \"*** Copying the framework ***\"\n\nPRODUCT_PATH=\"${BUILT_PRODUCTS_DIR}/${PROJECT_NAME}.framework\"\n\nFRAMEWORK_PATH=\"${SRCROOT}/Frameworks\"\nrm -rf \"${FRAMEWORK_PATH}\"\nmkdir \"${FRAMEWORK_PATH}\"\n\ncp -r \"${PRODUCT_PATH}\" \"${FRAMEWORK_PATH}/${PROJECT_NAME}.framework\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB74A9ED211A1FA800C5DF6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB74A9FF211A1FC400C5DF6A /* VersionClass.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FB74A9F7211A1FA800C5DF6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FB74A9F8211A1FA800C5DF6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FB74A9FA211A1FA800C5DF6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = TrustKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.marizack.TrustKit;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FB74A9FB211A1FA800C5DF6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = TrustKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.marizack.TrustKit;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB74A9EB211A1FA800C5DF6A /* Build configuration list for PBXProject "TrustKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB74A9F7211A1FA800C5DF6A /* Debug */,
+				FB74A9F8211A1FA800C5DF6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB74A9F9211A1FA800C5DF6A /* Build configuration list for PBXNativeTarget "TrustKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB74A9FA211A1FA800C5DF6A /* Debug */,
+				FB74A9FB211A1FA800C5DF6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB74A9E8211A1FA800C5DF6A /* Project object */;
+}
